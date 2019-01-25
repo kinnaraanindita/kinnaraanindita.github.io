@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kinnara Anindita</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Heebo:300,700" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="mainpage">
+    <div class="intro">
+      <img id="kins" src="kins.png" alt="kinnara's face" width=200px>
+      <div class="intro-right">
+        <h1 id="opening"> <strong> Hi, I’m Kinnara. </strong> <br><br>I’m a UX designer and an aspiring product designer currently finishing up my senior year at UCLA. In my design process, I always starts with a question.</h1>
+          <a href="https://www.linkedin.com/in/kinnaraanindita/"><img id="linkedin" src="linkedin.svg" alt="linkedin icon" width="30px"></a>
+          <a href="RESUME2019.pdf" target="_blank"><img id="file" src="file.png" alt="file icon" width=24px></a>
+      </div>
+    </div>
+
+
+      <div class="works" style="float:left;">
+
+        <ol>
+        <a href="KPCB/index.html">
+          <div class="box" id="kpcb" onmouseover="KPCB();" onmouseout="blank();">
+            <li><h2>How can DoorDash promote variety and offer relevant choices that appeal to users?</h2></li>
+          </div>
+        </a>
+        <a href="Airbnb/index.html" onmouseover="airbnb();" onmouseout="blank();">
+          <div class="box" id="airbnb">
+            <li><h2>How can Airbnb further merge Homes and Experiences?</h2></li>
+          </div>
+        </a>
+        <a href="NASA/index.html">
+          <div class="box" id="nasa" onmouseover="nasa();" onmouseout="blank();">
+            <li><h2>How can NASA Jet Propulsion Laboratory implement UX research?</h2></li>
+          </div>
+        </a>
+        <a href="Whatsapp/index.html">
+          <div class="box" id="whatsapp" onmouseover="whatsapp();" onmouseout="blank();">
+            <li><h2>How can I enhance WhatsApp’s experience?</h2></li>
+          </div>
+        </a>
+        </ol>
+
+        </div>
+        <div class = "image" style="float:right;">
+            <img alt="Big Picture" height="550px" id="myImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" >
+        </div>
+
+
+
+    </div>
+  </div>
+
+  <script>
+      var img = document.getElementById('myImage')
+
+      function KPCB()
+      {
+          img.src='KPCB/Mockup.png';
+      }
+      function airbnb()
+      {
+          img.src='Airbnb/experiencesnearby.png';
+      }
+      function nasa()
+      {
+          img.src='NASA/me.jpeg';
+      }
+      function whatsapp()
+      {
+          img.src='Whatsapp/1_1.png';
+      }
+      function blank()
+      {
+        img.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=';
+      }
+
+      function showImg(){
+        var thumb =document.getElementById(x);
+        x.style.display = "block";
+      };
+      function hideImg(x){
+        var thumb =document.getElementById(x);
+        x.style.display = "none";
+      };
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Enhancing WhatsApp's Features</title>
+  </head>
+  <body>
+    <div class="box">
+      <div id="back">
+        <a href="../index.html"><img src="back.png" alt="back" width="10px"> &nbsp Back</a>
+      </div>
+      <div class="introtext">
+        <h1 id="title">Enhancing WhatsApp's Features</h1>
+        <h3>Understanding more about my go-to messaging app</h3>
+      </div>
+        <img id="coverpic" src="1_1.png" width=400px></img>
+    </div>
+    <div class="box2">
+      <div class="reasonstext">
+        <h2>Why I use WhatsApp</h2>
+        <p>I spent my childhood in Indonesia, where WhatsApp is the dominating instant messaging app. I wondered why this is the case. Of course there are other apps, but my personal reasons for choosing WhatsApp are because:</p>
+       <ul>
+          <li><span>1</span> &nbsp WhatsApp works across devices</li>
+          <li><span>2</span> &nbsp WhatsApp feels most secure (perhaps because they display their end-to-end encryption)</li>
+          <li><span>3</span> &nbsp WhatsApp is simple and no-fuss</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box3">
+      <h2>Process</h2>
+        <p>To understand deeper about WhatsApp users, or at least a niche, I needed to put my research skills to the test. I wanted to go in depth as to why people choose WhatsApp over other apps. In addition, I wanted to know what people dislike about WhatsApp. And as a final step, I prototyped my solutions using Framer.</p>
+    </div>
+    <div class="box2">
+      <h2>Research</h2>
+      <p>My method was to conduct a qualitative study with five existing users. According to this article and my experience conducting usability studies, five is the magic number to detect 85% of problems in an interface and to garner significant results. I asked my participants broad questions such as:</p><br>
+      <ul class="center">
+        <li><h3 class="italic">Why WhatsApp?</h3></li>
+        <li><h3 class="italic">What features do you use most? What don’t you use?</h3></li>
+        <li><h3 class="italic">What do you like about WhatsApp? What don’t you like?</h3></li>
+      </ul><br>
+      <p>The reason I began with broad questions was to be as unbiased as possible and avoid leading them into me answers that I wanted. I asked follow-up questions that went further into detail. For example, after asking “what features do you use the most?” I would ask, “why do you use these features the most?” If I were to ask the latter question first, I would be assuming this information.</p>
+    </div>
+    <div class="box3">
+      <div class="text-right">
+      <h3>Redesign #1: Removing Status and Camera</h3>
+      <p>One clear finding I found from the participants’ responses is that they primarily use WhatsApp to message and make calls–and that they really dislike the Status function. In WhatsApp, Status is a feature that works much like Snapchat. And because of its terminology, one participant mistook Status to be what WhatsApp calls About. From this, I concluded that Status and Camera were two features that could be eliminated from the app’s main landing page. WhatsApp’s current layout of the bottom navigation bar includes Status, Calls, Camera, Chats, andSettings, respectively. With Camera right in the center of the navigation bar, it suggests that the camera function should be an important feature of the app that people often use–which it isn’t.</p>
+    </div>
+    <img class="left" src="1_1.png" alt="removing status and camera" width=400px>
+  </div>
+    <div class="box3">
+      <div class="text-left">
+        <h3>Redesign #2: Implementing an Add button</h3>
+        <p>In terms of organization, one solution could be to include an Add button to initiate a new conversation. This way, instead of clicking “new chat” and having to navigate to a different page, the user can simply do so on one page. The user would be able to create a new chat or a new group within this option. The less cognitive load, the better.</p>
+    </div>
+      <img class="right" src="1_1.gif" alt="add button" width=400px>
+    </div>
+    <div class="box3">
+      <div class="text-right">
+        <h3>Redesign #3: Swipe to navigate</h3>
+        <p>I believe that WhatsApp can improve their interaction design to enhance the app’s navigation flow. It doesn’t need to be anything very animated–since that would detract from WhatsApp’s simplicity–but perhaps implement more subtle changes. One example is adding the ability to swipe into a chat page so that a user can seamlessly navigate back and forth with a single motion.</p>
+    </div>
+      <img class="left" src="2_2.gif" alt="swipe to navigate" width=400px>
+    </div>
+    <div class="box3">
+        <div class="text-left">
+          <h3>Redesign #4: Swipe left to access options</h3>
+          <p>As of right now, swiping left on a chat leads to two options; Unread and Pin. Swiping right leads to More and Archive. This structure further illustrates the lack of organization within the app. Instead of placing some options on swipe left and some on swipe right, WhatsApp can simply group them together on one side. By grouping everything under More, users shouldn’t have to try to struggle to find an option.</p>
+      </div>
+        <img class="right" src="3_1.gif" alt="swipe group everything under more" width=400px>
+    </div>
+  </body>
+</html>

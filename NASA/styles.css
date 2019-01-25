@@ -1,0 +1,179 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  color: #2f2f2f;
+  line-height: 22pt;
+  text-align: center;
+  font-size: 1em;
+}
+
+p {
+  line-height: 28pt;
+}
+
+h1 {
+  color: white;
+  font-size: 1.8em;
+}
+
+#back {
+  width: 80px;
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #2f2f2f;
+  transition: .3s;
+}
+
+#title {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.info {
+  width: 320px;
+  margin: 0 auto;
+}
+
+#info-left {
+  float: left;
+  font-weight: bold;
+  text-align: right;
+}
+
+#info-right {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: left;
+}
+
+.introtext {
+  float: left;
+  width: 400px;
+  text-align: left;
+  line-height: 2.5em;
+  margin-top: 100px;
+}
+
+#me {
+  margin-top: 100px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.italic {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.box {
+  background-color: #0b3d91;
+  padding: 80px 15%;
+  overflow: auto;
+}
+
+.box2 {
+  padding: 80px 15%;
+  overflow: auto;
+  background-color: rgba(0,0,0,.05);
+
+}
+
+.box3 {
+  padding: 80px 15%;
+  overflow: auto;
+}
+
+.box4 {
+  background-color: white;
+  margin: 80px 15%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+}
+
+li {
+  padding: 0px;
+  line-height: 24pt;
+}
+
+.bigpicture ul {
+  display: flex;
+  flex-basis: 300px;
+  overflow: auto;
+}
+
+.bigpicture li {
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#leading {
+  float: left;
+}
+
+#advocating {
+  float: right;
+}
+
+span {
+  color: #0b3d91;
+  font-weight: bold;
+}
+
+#coverpic {
+  display: block;
+  float: right;
+}
+
+.theprocess {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.theprocess.h2 {
+  color: #0b3d91;
+}
+
+.quantitative {
+  float: left;
+  width: 420px;
+}
+
+.qualitative {
+  float: right;
+  width: 420px;
+}
+
+.left {
+  text-align: left;
+}

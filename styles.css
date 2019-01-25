@@ -1,0 +1,107 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  margin: 120px;
+}
+
+.mainpage{
+  margin: auto;
+  max-width: 1000px;
+}
+
+.intro {
+  overflow: auto;
+  width: 1000px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #424242;
+}
+
+.intro-right {
+  float: right;
+  width: 500px;
+  overflow: auto;
+}
+
+#linkedin {
+  position: relative;
+  left: 15px;
+  margin-top: 20px;
+}
+
+#file {
+  position: relative;
+  bottom: 3px;
+  margin-left: 15px;
+}
+
+#kins {
+  float: left;
+  top: 220px;
+  left: 120px;
+}
+
+#opening {
+  float: right;
+  clear: both;
+  width: 480px;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #fc3622;
+}
+
+.works {
+  width: 600px;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #2f2f2f;
+  line-height: 24pt;
+}
+
+ol {
+  font-weight: bold;
+  list-style-type: decimal-leading-zero;
+}
+
+li {
+  color: #fc3622;
+}
+
+.image {
+  float: right;
+  /* padding: 20px; */
+  padding-right: 200px;
+  margin-top: 125px;
+  max-width: 10%;
+
+}
+
+.box {
+  padding-left: 10px;
+}
+
+#kpcb, #airbnb, #whatsapp, #nasa {
+  border: none;
+  color: white;
+  padding: 16px 32px 16px 60px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 400px;
+}
+
+#kpcb, #airbnb, #whatsapp, #nasa {
+  background-color: white;
+  color: #2f2f2f;
+}
+
+#kpcb:hover, #airbnb:hover, #whatsapp:hover, #nasa:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

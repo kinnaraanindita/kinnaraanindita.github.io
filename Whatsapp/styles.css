@@ -1,0 +1,134 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  color: #2f2f2f;
+  line-height: 22pt;
+  text-align: center;
+  font-size: 1em;
+}
+
+#back {
+  width: 80px;
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+a:hover {
+  color: white;
+  transition: .3s;
+}
+
+p {
+  line-height: 2em;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+#title {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.introtext {
+  position: relative;
+  top: 150px;
+}
+
+.italic {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.box {
+  background-color: #25D366;
+  padding: 80px 15%;
+  overflow: auto;
+}
+
+.box2 {
+  padding: 80px 15%;
+  overflow: auto;
+  background-color: rgba(0,0,0,.05);
+
+}
+
+.box3 {
+  padding: 80px 15%;
+  overflow: auto;
+}
+
+.box4 {
+  background-color: white;
+  margin: 80px 15%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+}
+
+li {
+  padding: 0px;
+  line-height: 24pt;
+}
+
+span {
+  color: #25D366;
+  font-weight: bold;
+}
+
+#coverpic {
+  display: block;
+  float: right;
+}
+
+.introtext {
+  text-align: left;
+  width: 400px;
+  float: left;
+  line-height: 2em;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.text-right {
+  width: 400px;
+  text-align: left;
+  float: right;
+}
+
+.text-left {
+  width: 400px;
+  text-align: left;
+  float: left;
+}
