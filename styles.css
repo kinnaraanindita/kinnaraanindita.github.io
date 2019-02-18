@@ -12,7 +12,7 @@ body {
   overflow: auto;
   width: 1000px;
   padding-bottom: 100px;
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid gray;
 }
 
 .intro-right {
