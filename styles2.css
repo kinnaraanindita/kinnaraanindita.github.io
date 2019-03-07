@@ -2,7 +2,6 @@ body {
   font-family: 'Heebo', sans-serif;
   margin: 120px;
   background-color: #f2f2f2;
-  position: relative;
 }
 
 .mainpage{
@@ -10,15 +9,11 @@ body {
   max-width: 1000px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .intro {
   overflow: auto;
   width: 1000px;
-  padding-bottom: 80px;
-  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 100px;
+  border-bottom: 1px solid gray;
   margin-bottom: 80px;
 }
 
@@ -28,7 +23,7 @@ a {
   overflow: auto;
 }
 
-.projects-container {
+.works {
   display: grid;
   grid-template-columns: 485px 485px;
   grid-gap: 20px;
@@ -37,18 +32,19 @@ a {
 #linkedin {
   position: fixed;
   bottom: 20px;
-  right: 100px;
+  right: 90px;
 }
 
 #file {
   position: fixed;
   bottom: 60px;
-  right: 105px;
+  right: 95px;
 }
 
 #kins {
-  border: 1px solid #d8d8d8;
-
+  float: left;
+  top: 220px;
+  left: 120px;
 }
 
 #opening {
@@ -65,18 +61,13 @@ h2 {
   font-size: 1.3em;
   text-align: center;
   font-weight: 700;
-  /* color: #2f2f2f; */
+  color: #2f2f2f;
   line-height: 24pt;
 }
 
 p {
   text-align: center;
   color: lightgrey;
-}
-
-.ov-hashtag {
-  text-align: center;
-  color: white;
 }
 
 h3 {
@@ -86,15 +77,12 @@ h3 {
 }
 
 #name {
-  position: absolute;
-  top: 15px;
-  left: -65px;
+  top: 135px;
 }
 
 #projects {
-  position: absolute;
-  top: 310px;
-  left: -50px;
+  bottom: 165px;
+  left: 70px;
 }
 
 #kpcb {
@@ -113,28 +101,19 @@ h3 {
   border-top: 15px solid #25D366;
 }
 
-
-.container {
-  position: relative;
-  width: 25%;
+.box {
   padding-left: 10px;
   height: 150px;
   background-color: white;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #c4c6c4;
   color: #2f2f2f;
   padding: 60px;
   text-decoration: none;
   display: inline-block;
-  margin: 5px;
-  width: 360px;
+  width: 370px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
-}
-
-.image {
-  width: 100%;
-  height: auto;
 }
 
 .overlay {
@@ -142,49 +121,21 @@ h3 {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #ed451a;
   overflow: hidden;
   width: 100%;
   height:0;
-  transition: .5s ease;
-}
-
-#ov-airbnb{
-  background-color: #ff5a5f;
-}
-
-#ov-nasa {
-  background-color: #0b3d91;
-}
-
-#ov-whatsapp {
-  background-color: #25D366;
-}
-
-.wtext {
-  color: white;
-  position: absolute;
-  width: 50%;
-  left: -5px;
-  top: -5px;
-  padding-left: 10px;
-  height: 150px;
-  padding: 60px;
-  text-decoration: none;
-  display: inline-block;
-  margin: 5px;
-  width: 360px;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
+  transition: .4s ease;
+  background-color: #ed451a;
 }
 
 #kpcb:hover, #airbnb:hover, #whatsapp:hover, #nasa:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#kpcb:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
 
 .copyright {
   position: relative;
